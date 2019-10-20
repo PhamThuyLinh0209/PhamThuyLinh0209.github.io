@@ -1,122 +1,195 @@
-.all{
-    background-color:rgb(168, 168, 132);
-    height: 700px;
+div{
     width: 100%;
+    height: 50px;
+    margin: 0 auto;
 }
-.header{
-    height: 10%;
-    width: 100%;
-    background-color: yellow;
-    margin: 5px;
-}
-.content{
-    height: 75%;
-    width: 100%;
+ul{
     display: flex;
-    margin: 5px;
 }
-.content1{
-    height: 100%;
-    width: 60%;
-    margin: 5px;
+.icon{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
 }
-.x1{
-    width: 100%;
-    height: 50%;
-    background-color: aquamarine;
-    margin-bottom: 8px;
+li:hover {
+    background: red;
+    color:white;
 }
-.x2{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    margin-bottom: 8px;
-}
-.p1{
-    width: 49%;
-    height: 100%;
-}
-.y1{
-    width: 100%;
-    height: 40%;
-    background-color: blueviolet;
-    margin-bottom: 8px;
-}
-.y2{
-    width: 100%;
-    height: 60%;
-    background-color: pink;
-}
-.p2{
-    width: 50%;
-    height: 100%;
-    background-color: greenyellow;
-    margin-left: 10px;
-}
-.content2{
-    height: 100%;
-    width: 40%;
-    margin: 5px;
-}
-.t1{
-    height: 20%;
-    width: 98%;
-    display: flex;
-    margin-bottom: 8px;
-}
-.b1{
-    height: 100%;
-    width: 80%;
-    background-color: orangered;
-    margin-right: 10px;
-}
-.b2{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(128, 179, 221);
-}
-.t2{
-    height: 10%;
-    width: 98%;
-    background-color: rgb(65, 231, 15);
-    margin-bottom: 8px;
-}
-.t3{
-    height: 57%;
-    width: 100%;
-    display: flex;
-    margin-bottom: 8px;
-}
-.a1{
-    height: 100%;
-    width: 33%;
-    background-color: orange;
-    margin-right: 8px;
-}
-.a2{
-    height: 100%;
-    width: 30%;
-    background-color: rebeccapurple;
-    margin-right: 8px;
-}
-.a3{
-    height: 100%;
-    width: 33%;
-    background-color: blue;
-}
-.t4{
-    height: 10%;
-    width: 100%;
-    background-color: rgb(155, 35, 61);
-}
-.footer{
-    height: 10%;
-    width: 100%;
-    background-color: rgb(245, 245, 118);
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 30px;
-    line-height: 60px;
+.x:hover{
+    background: rgb(151, 151, 240);
+    color: brown;
 }
 
+li{
+    color: beige;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: chartreuse;
+}
+.new{
+    position: relative;
+}
+.x{
+    background-color: cadetblue;
+    color: darkblue;
+}
+.menucon1{
+    position: absolute;
+    display: none;
+    left: -44px;
+    top: 67px;
+}
+.menucon2{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 512px;
+}
+.menucon3{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 750px;
+}
+.menucon4{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 976px;
+}
+.menu1{
+    position: absolute;
+    display: none;
+    left: 240px;
+    top: 1px;
+}
+.menu2{
+    position: absolute;
+    display: none;
+    top: 68px;
+    left: 240px;
+}
+.menu3{
+    position: absolute;
+    display: none;
+    top: 137px;
+    left: 240px;
+}
+.menu4{
+    position: absolute;
+    display: none;
+    top: 205px;
+    left: 240px;
+}
+.menu5{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top:0px
+}
+.menu6{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top: 47px;
+}
+.menu7{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top: 95px;
+}
+.menu8{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 0px;
+}
+.menu9{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 47px;
+}
+.menu10{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 95px;
+}
+.menu11{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top:0px;
+
+}
+.menu12{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top: 47px;
+}
+.menu13{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top: 95px;
+}
+.new:hover .menucon1{
+    display: block;
+}
+.study:hover .menucon2{
+    display: block;
+}
+.play:hover .menucon3{
+    display: block;
+}
+.music:hover .menucon4{
+    display: block;
+}
+.v:hover .menu1{
+    display: inline-block;
+}
+.t:hover .menu2{
+    display: inline-block;
+}
+.d:hover .menu3{
+    display: inline-block;
+}
+.q:hover .menu4{
+    display: inline-block;
+}
+
+.h:hover .menu5{
+    display: inline-block;
+}
+.c:hover .menu6{
+    display: inline-block;
+}
+.j:hover .menu7{
+    display: inline-block;
+}
+.f:hover .menu8{
+    display: inline-block;
+}
+.m:hover .menu9{
+    display: inline-block;
+}
+.g:hover .menu10{
+    display: inline-block;
+}
+.l:hover .menu11{
+    display: inline-block;
+}
+.r:hover .menu12{
+    display: inline-block;
+}
+.s:hover .menu13{
+    display: inline-block;
+}
