@@ -1,0 +1,195 @@
+div{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+}
+.icon{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+li:hover {
+    background: red;
+    color:white;
+}
+.x:hover{
+    background: rgb(151, 151, 240);
+    color: brown;
+}
+
+li{
+    color: beige;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: chartreuse;
+}
+.new{
+    position: relative;
+}
+.x{
+    background-color: cadetblue;
+    color: darkblue;
+}
+.menucon1{
+    position: absolute;
+    display: none;
+    left: -44px;
+    top: 67px;
+}
+.menucon2{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 512px;
+}
+.menucon3{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 750px;
+}
+.menucon4{
+    position: absolute;
+    display: none;
+    top: 86px;
+    left: 976px;
+}
+.menu1{
+    position: absolute;
+    display: none;
+    left: 240px;
+    top: 1px;
+}
+.menu2{
+    position: absolute;
+    display: none;
+    top: 68px;
+    left: 240px;
+}
+.menu3{
+    position: absolute;
+    display: none;
+    top: 137px;
+    left: 240px;
+}
+.menu4{
+    position: absolute;
+    display: none;
+    top: 205px;
+    left: 240px;
+}
+.menu5{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top:0px
+}
+.menu6{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top: 47px;
+}
+.menu7{
+    position: absolute;
+    display: none;
+    left: 252px;
+    top: 95px;
+}
+.menu8{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 0px;
+}
+.menu9{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 47px;
+}
+.menu10{
+    position: absolute;
+    display: none;
+    left: 246px;
+    top: 95px;
+}
+.menu11{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top:0px;
+
+}
+.menu12{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top: 47px;
+}
+.menu13{
+    position: absolute;
+    display: none;
+    left: 272px;
+    top: 95px;
+}
+.new:hover .menucon1{
+    display: block;
+}
+.study:hover .menucon2{
+    display: block;
+}
+.play:hover .menucon3{
+    display: block;
+}
+.music:hover .menucon4{
+    display: block;
+}
+.v:hover .menu1{
+    display: inline-block;
+}
+.t:hover .menu2{
+    display: inline-block;
+}
+.d:hover .menu3{
+    display: inline-block;
+}
+.q:hover .menu4{
+    display: inline-block;
+}
+
+.h:hover .menu5{
+    display: inline-block;
+}
+.c:hover .menu6{
+    display: inline-block;
+}
+.j:hover .menu7{
+    display: inline-block;
+}
+.f:hover .menu8{
+    display: inline-block;
+}
+.m:hover .menu9{
+    display: inline-block;
+}
+.g:hover .menu10{
+    display: inline-block;
+}
+.l:hover .menu11{
+    display: inline-block;
+}
+.r:hover .menu12{
+    display: inline-block;
+}
+.s:hover .menu13{
+    display: inline-block;
+}
