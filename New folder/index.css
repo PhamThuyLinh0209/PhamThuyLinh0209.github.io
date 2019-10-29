@@ -1,0 +1,57 @@
+.menu{
+    height: 75px;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+}
+.icon{
+    color: black;
+    font-size: 20px;
+}
+li:hover {
+    background: red;
+    color:white;
+}
+.x:hover{
+    background: rgb(151, 151, 240);
+    color: brown;
+}
+.x{
+    background-color: cadetblue;
+    color: darkblue;
+}
+li{
+    color: beige;
+    background-color: blueviolet;
+    color: chartreuse;
+    width:150px;
+ 	height:75px;
+     line-height: 75px;
+     text-align: center;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    position: relative;
+    display: inline-block;
+}
+.menucon1{
+    position: absolute;
+    display: none;
+    left: -40px;
+}
+.menucon2{
+    position: absolute;
+    display: none;
+    left: 110px;
+    top: 0px;
+}
+.menu ul li:hover .menucon1{
+    display: block;
+}
+.menucon1 li:hover .menucon2{
+    display: block;
+}
+
